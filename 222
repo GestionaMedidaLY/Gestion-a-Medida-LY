@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name=
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestión a Medida - Lidia Yturralde M.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: #f8f9fa;
+      color: #1a1a1a;
+    }
+
+    header {
+      background-color: #002855;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin: 10px 0 0;
+    }
+
+    h2 {
+      color: #002855;
+    }
+
+    .subtitulo {
+      font-size: 1.1em;
+      margin-top: 5px;
+      color: #d4af37;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+    }
+
+    .servicios {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .servicio {
+      flex: 1 1 45%;
+      background: #f0f0f0;
+      padding: 15px;
+      border-left: 5px solid #d4af37;
+      border-radius: 5px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background: #002855;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #002855;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+
+    /* Botón de WhatsApp */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      z-index: 1000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Gestión a Medida Logo" />
+    <h1>GESTIÓN A MEDIDA</h1>
+    <div class="subtitulo">Lidia Yturralde M.</div>
+    <p>Soluciones administrativas que se adaptan a ti</p>
+  </header>
+
+  <section>
+    <h2>Sobre Nosotros</h2>
+    <p>En <strong>Gestión a Medida</strong> brindamos servicios administrativos adaptados a las necesidades de cada cliente. Con profesionalismo, discreción y compromiso, ayudamos a optimizar procesos y ahorrar tiempo en gestiones clave.</p>
+  </section>
+
+  <section>
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="servicio">
+        <h3>Gestión Administrativa</h3>
+        <p>Organización de documentos, control de agendas, seguimiento de trámites y tareas rutinarias.</p>
+      </div>
+      <div class="servicio">
+        <h3>Asistencia Virtual</h3>
+        <p>Soporte remoto personalizado para profesionales independientes y pymes.</p>
+      </div>
+      <div class="servicio">
+        <h3>Optimización de Procesos</h3>
+        <p>Análisis y mejora de flujos administrativos para mayor eficiencia.</p>
+      </div>
+      <div class="servicio">
+        <h3>Atención al Cliente</h3>
+        <p>Gestión de correos, llamadas, agenda y seguimiento de casos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contáctanos</h2>
+    <form action="https://formspree.io/f/tu_id_formulario" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" required />
+      <input type="email" name="email" placeholder="Correo electrónico" required />
+      <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" rows="5" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gestión a Medida - Lidia Yturralde M.</p>
+  </footer>
+
+  <!-- Botón WhatsApp -->
+  <a class="whatsapp-button" href="https://wa.me/593XXXXXXXXX" target="_blank" title="Escríbenos por WhatsApp">
+    💬
+  </a>
+
+</body>
+</html>
